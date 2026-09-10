@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "recorder",
+  "name": "AERA Recorder",
+  "version": "1.0.0",
+  "description": "Smooth recovery screen recording with native AERA controls and isolated OpenH264 MP4 encoding.",
+  "type": "app-runtime",
+  "entry": "recorder",
+  "min_host_api": 1,
+  "payload": "runtime.xz",
+  "payload_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.0.0/runtime.xz",
+  "payload_size": 4019680,
+  "payload_sha256": "f4848ceed88b8e055d6880d0cbc8ac8ebd3695eab57851526fed5212c7f214a2",
+  "expanded_size": 15762908,
+  "expanded_sha256": "d369e956ac88437762555b436bf20405aed08ee1c0812360c815562bfdf021cc",
+  "member_count": 31,
+  "permissions": ["display-capture", "write-recordings"]
+}
