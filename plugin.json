@@ -2,17 +2,146 @@
   "schema": 1,
   "id": "recorder",
   "name": "AERA Recorder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Smooth recovery screen recording with native AERA controls and isolated OpenH264 MP4 encoding.",
   "type": "app-runtime",
   "entry": "recorder",
   "min_host_api": 1,
   "payload": "runtime.xz",
-  "payload_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.0.0/runtime.xz",
+  "payload_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.0/runtime.xz",
   "payload_size": 4019680,
   "payload_sha256": "f4848ceed88b8e055d6880d0cbc8ac8ebd3695eab57851526fed5212c7f214a2",
   "expanded_size": 15762908,
   "expanded_sha256": "d369e956ac88437762555b436bf20405aed08ee1c0812360c815562bfdf021cc",
   "member_count": 31,
-  "permissions": ["display-capture", "write-recordings"]
+  "permissions": [
+    "display-capture",
+    "write-recordings"
+  ],
+  "localizations": {
+    "ar_SA": {
+      "name": "AERA Recorder",
+      "description": "تسجيل شاشة الاسترداد السلس مع عناصر التحكم الأصلية لـ AERA وترميز OpenH264 MP4 المنفصل."
+    },
+    "bg_BG": {
+      "name": "AERA Recorder",
+      "description": "Гладко възстановяване на запис на екрана с вградени контролни елементи на AERA и изолирано кодиране OpenH264 MP4."
+    },
+    "bn_BD": {
+      "name": "AERA Recorder",
+      "description": "দেশীয় AERA নিয়ন্ত্রণ এবং পৃথক OpenH264 MP4 এ সংরক্ষণের মাধ্যমে মসৃণ পুনরুদ্ধার স্ক্রিন রেকর্ডিং।"
+    },
+    "ca_ES": {
+      "name": "AERA Recorder",
+      "description": "Gravació de pantalla de recuperació suau amb controls natius AERA i codificació aïllada OpenH264 MP4."
+    },
+    "cs_CZ": {
+      "name": "AERA Recorder",
+      "description": "Hladké obnovení nahrávání obrazovky s nativními ovládacími prvky AERA a izolovaným kódováním OpenH264 MP4."
+    },
+    "de_DE": {
+      "name": "AERA Recorder",
+      "description": "Sanfte Wiederherstellung der Bildschirmaufnahme mit nativen AERA-Steuerelementen und isolierter OpenH264 MP4-Codierung."
+    },
+    "el_GR": {
+      "name": "AERA Recorder",
+      "description": "Ομαλή αποκατάσταση εγγραφής οθόνης με εγγενείς ελέγχους AERA και απομονωμένη κωδικοποίηση OpenH264 MP4."
+    },
+    "es-ES": {
+      "name": "AERA Recorder",
+      "description": "Grabación de pantalla de recuperación fluida con controles nativos de AERA y codificación aislada OpenH264 MP4."
+    },
+    "fa_IR": {
+      "name": "AERA Recorder",
+      "description": "ضبط صاف صفحه بازیابی با کنترل‌های بومی AERA و رمزگذاری ایزوله‌شده OpenH264 MP4."
+    },
+    "fr_FR": {
+      "name": "AERA Recorder",
+      "description": "Enregistrement à l'écran en récupération fluide avec les contrôles natifs AERA et l'encodage isolé OpenH264 MP4."
+    },
+    "he_IL": {
+      "name": "AERA Recorder",
+      "description": "הקלטת מסך שחזור חלקה עם בקרות AERA מקומיות וקידוד מבודד של OpenH264 MP4."
+    },
+    "hi_IN": {
+      "name": "AERA Recorder",
+      "description": "नेटिव AERA नियंत्रण और अलग OpenH264 MP4 एन्कोडिंग के साथ स्मूथ रिकवरी स्क्रीन रिकॉर्डिंग।"
+    },
+    "hu": {
+      "name": "AERA Recorder",
+      "description": "Zökkenőmentes helyreállítási képernyőfelvétel natív AERA vezérlőkkel és izolált OpenH264 MP4 kódolással."
+    },
+    "id_ID": {
+      "name": "AERA Recorder",
+      "description": "Rekam layar pemulihan yang mulus dengan kontrol AERA asli dan encoding OpenH264 MP4 yang terisolasi."
+    },
+    "it_IT": {
+      "name": "AERA Recorder",
+      "description": "Registrazione dello schermo senza intoppi con controlli nativi AERA e codifica isolata OpenH264 MP4."
+    },
+    "ja_JP": {
+      "name": "AERA Recorder",
+      "description": "ネイティブ AERA コントロールと分離された OpenH264 MP4 エンコーディングによるスムーズなリカバリ画面の録画。"
+    },
+    "ko_KR": {
+      "name": "AERA Recorder",
+      "description": "네이티브 AERA 컨트롤과 분리된 OpenH264 MP4 인코딩으로 원활한 복구 화면 녹화."
+    },
+    "nl_NL": {
+      "name": "AERA Recorder",
+      "description": "Soepel herstel van schermopname met native AERA-bedieningselementen en geïsoleerde OpenH264 MP4-codering."
+    },
+    "no_NO": {
+      "name": "AERA Recorder",
+      "description": "Jevn gjenopprettingsskjermopptak med innfødte AERA-kontroller og isolert OpenH264 MP4-koding."
+    },
+    "pl_PL": {
+      "name": "AERA Recorder",
+      "description": "Płynne nagrywanie ekranu przy odzyskiwaniu z natywnymi kontrolkami AERA oraz izolowanym kodowaniem OpenH264 MP4."
+    },
+    "pt_BR": {
+      "name": "AERA Recorder",
+      "description": "Gravação de tela de recuperação suave com controles nativos AERA e codificação isolada OpenH264 MP4."
+    },
+    "pt_PT": {
+      "name": "AERA Recorder",
+      "description": "Gravação de ecrã de recuperação suave com controlos nativos AERA e codificação isolada OpenH264 MP4."
+    },
+    "ro_RO": {
+      "name": "AERA Recorder",
+      "description": "Înregistrare ecran recuperare lină cu controale native AERA și codare izolată OpenH264 MP4."
+    },
+    "ru": {
+      "name": "AERA Recorder",
+      "description": "Плавная запись экрана восстановления с использованием родных элементов управления AERA и изолированного кодирования OpenH264 MP4."
+    },
+    "sr_Cyrl": {
+      "name": "AERA Recorder",
+      "description": "Глатко снимање екрана са нативним AERA контролама и изолованим OpenH264 MP4 кодирањем."
+    },
+    "th_TH": {
+      "name": "AERA Recorder",
+      "description": "การบันทึกหน้าจอการกู้คืนที่ลื่นไหลด้วยการควบคุม AERA เนทีฟและการเข้ารหัส OpenH264 MP4 แยกส่วน"
+    },
+    "tr_TR": {
+      "name": "AERA Recorder",
+      "description": "Yerel AERA kontrolleri ve izole OpenH264 MP4 kodlaması ile düzgün kurtarma ekran kaydı."
+    },
+    "uk_UA": {
+      "name": "AERA Recorder",
+      "description": "Гладкий відновлювальний запис екрану з рідними контролерами AERA та ізольованим кодуванням OpenH264 MP4."
+    },
+    "vi_VN": {
+      "name": "AERA Recorder",
+      "description": "Ghi màn hình phục hồi mượt mà với các điều khiển AERA gốc và mã hóa OpenH264 MP4 riêng biệt."
+    },
+    "zh_CN": {
+      "name": "AERA Recorder",
+      "description": "使用本地 AERA 控件和独立的 OpenH264 MP4 编码平滑恢复屏幕录制。"
+    },
+    "zh_TW": {
+      "name": "AERA Recorder",
+      "description": "使用原生 AERA 控制和隔離的 OpenH264 MP4 編碼平滑恢復螢幕錄製。"
+    }
+  }
 }
